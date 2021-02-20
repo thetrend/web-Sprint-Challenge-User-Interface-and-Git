@@ -194,3 +194,51 @@ footer nav a {
 .box:nth-of-type(8) { background: hotpink !important; }
 .box:nth-of-type(9) { background: indigo !important; }
 .box:last-of-type { background: dodgerblue !important; }
+
+/* About Page Styles */
+#about-intro {
+    padding: 20px;
+    border-bottom: 1px dashed;
+}
+
+/* Card container */
+#cardholder {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+}
+
+/* Individual cards */
+.card {
+    width: 48%;
+    padding: 15px 1%;
+    padding-inline-start: 0;
+    border-bottom: 1px dashed;
+    margin-bottom: 40px;
+}
+
+/* Card child elements */
+.card > img {
+    margin-bottom: 10px;
+}
+
+.card > h2 {
+    line-height: 150%;
+}
+
+.card > button {
+    border-radius: 10px;
+    border: 2px solid;
+    background: inherit;
+    padding: 5px 20px;
+    margin: 20px 0;
+    font-size: large;
+}
+
+/* Let's Work Together Section */
+#lets-work-together {
+    padding: 2%;
+    padding-top: 0;
+}
