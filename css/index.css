@@ -182,3 +182,15 @@ footer nav a {
 .container > header > img {
     margin-top: 20px;
 }
+
+/* Box Background Colors */
+.box:first-of-type { background: teal !important; }
+.box:nth-of-type(2) { background: gold !important; }
+.box:nth-of-type(3) { background: cadetblue !important; }
+.box:nth-of-type(4) { background: coral !important; }
+.box:nth-of-type(5) { background: crimson !important; }
+.box:nth-of-type(6) { background: forestgreen !important; }
+.box:nth-of-type(7) { background: darkorchid !important; }
+.box:nth-of-type(8) { background: hotpink !important; }
+.box:nth-of-type(9) { background: indigo !important; }
+.box:last-of-type { background: dodgerblue !important; }
